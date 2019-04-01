@@ -4,7 +4,7 @@ if [ "$#" -ne 2 ]; then
 fi
 if [ -f $1 ]
 then
-    echo "the file exists"
+    echo "The file exists"
 else
   echo "file not exists"
 fi
