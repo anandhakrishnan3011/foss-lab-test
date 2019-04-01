@@ -6,7 +6,7 @@ if [ -f $1 ]
 then
     echo "The file exists"
 else
-  echo "file not exists"
+  echo "File not exists"
 fi
 if grep -qF "$2" ulist 
  then
